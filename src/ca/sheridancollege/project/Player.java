@@ -10,6 +10,7 @@ package ca.sheridancollege.project;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 2020
+ * @author Kevin Yuen, Ralph Sabio, Jonathan Persaud, Immanuel Georges
  */
 public abstract class Player {
 
