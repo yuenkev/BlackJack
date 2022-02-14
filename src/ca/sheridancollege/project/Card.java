@@ -13,12 +13,18 @@ package ca.sheridancollege.project;
  */
 public abstract class Card {
     //default modifier for child classes
-
     /**
      * Students should implement this method for their specific children classes
      *
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
      */
+    String[] suits = new String[4];
+    suits[0] = "Clubs";
+    suits[1] = "Diamonds";
+    suits[2] = "Hearts";
+    suits[3] = "Spades";
+    String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", 
+    "Jack", "Queen", "King"};    
     @Override
     public abstract String toString();
 
